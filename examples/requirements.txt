@@ -5,7 +5,7 @@ psutil
 sacrebleu
 rouge-score
 tensorflow_datasets
-pytorch-lightning==0.7.6
+pytorch-lightning==1.6.0rc0
 matplotlib
 git-python==1.0.3
 faiss
@@ -13,3 +13,4 @@ streamlit
 elasticsearch
 pandas
 nlp
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
