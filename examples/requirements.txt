@@ -13,3 +13,4 @@ streamlit
 elasticsearch
 pandas
 nlp
+torch>=2.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
